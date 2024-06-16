@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Profile Settings Styles */
+.profile-info,
+.change-password,
+.logout {
+    margin-bottom: 30px;
+}
+
+.profile-info h2,
+.change-password h2 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.profile-info form,
+.change-password form {
+    max-width: 400px;
+}
+
+.profile-info .form-group,
+.change-password .form-group {
+    margin-bottom: 20px;
+}
+
+.profile-info .form-group label,
+.change-password .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.profile-info .form-group input[type="text"],
+.profile-info .form-group input[type="email"],
+.profile-info .form-group input[type="tel"],
+.change-password .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.profile-info .form-group input[type="text"]:focus,
+.profile-info .form-group input[type="email"]:focus,
+.profile-info .form-group input[type="tel"]:focus,
+.change-password .form-group input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.profile-info button,
+.change-password button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-info button:hover,
+.change-password button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Grades Module Styles */
+.subject-list {
+    margin-bottom: 20px;
+}
+
+.subject-list h2 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.subject-list ul {
+    padding-left: 20px;
+}
+
+.grade-entry-form {
+    margin-bottom: 20px;
+}
+
+.grade-entry-form h2 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.grade-entry-form form {
+    max-width: 400px;
+}
+
+.grade-entry-form .form-group {
+    margin-bottom: 20px;
+}
+
+.grade-entry-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.grade-entry-form .form-group input[type="text"],
+.grade-entry-form .form-group input[type="number"],
+.grade-entry-form .form-group select,
+.grade-entry-form .form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.grade-entry-form .form-group input[type="text"]:focus,
+.grade-entry-form .form-group input[type="number"]:focus,
+.grade-entry-form .form-group select:focus,
+.grade-entry-form .form-group input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.grade-entry-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.grade-entry-form button:hover {
+    background-color: #0056b3;
+}
+
+.student-grades {
+    margin-bottom: 20px;
+}
+
+.student-grades h2 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.student-grades form {
+    margin-bottom: 10px;
+}
+
+.student-grades form label {
+    margin-right: 10px;
+    color: #555555;
+}
+
+.student-grades form input[type="text"],
+.student-grades form input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.student-grades form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-grades form button:hover {
+    background-color: #0056b3;
+}
+
+.student-grades table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.student-grades th,
+.student-grades td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-grades th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+.student-grades tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-grades tr:hover {
+    background-color: #f2f2f2;
+}
+
+.message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+}

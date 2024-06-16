@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Messages Page Styles */
+.inbox h2,
+.compose-message h2,
+.view-message h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.inbox ul {
+    padding: 0;
+}
+
+.inbox li {
+    list-style-type: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.sender,
+.subject,
+.date {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.compose-message form {
+    max-width: 500px;
+}
+
+.compose-message .form-group {
+    margin-bottom: 20px;
+}
+
+.compose-message label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.compose-message input[type="text"],
+.compose-message input[type="email"],
+.compose-message textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.compose-message button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.compose-message button:hover {
+    background-color: #0056b3;
+}
+
+.view-message .message-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.view-message .message-details .reply-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-message .message-details .reply-button:hover {
+    background-color: #0056b3;
+}
